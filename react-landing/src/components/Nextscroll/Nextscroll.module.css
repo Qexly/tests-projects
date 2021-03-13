@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+.scroll_arrow {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-bottom: 53px;
+}
+
+.scroll_arrow {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-bottom: 53px;
+}
+
+.scroll_text {
+    -webkit-animation: scroll_text 3s linear infinite;
+    animation: scroll_text 3s linear infinite;
+}
+
+@-webkit-keyframes scroll_text {
+    0% { color: rgb(255, 255, 255); }
+    50% { color: rgb(190, 183, 180); }
+    100% { color: rgb(255, 255, 255); }
+  }
+  @keyframes scroll_text {
+    0% { color: rgb(255, 255, 255); }
+    50% { color: rgb(190, 183, 180); }
+    100% { color: rgb(255, 255, 255); }
+  }
+
+.arrow {
+    margin: auto;
+    margin-top: 25px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.scroll_arrow span {
+    display: block;
+    text-align: center;
+    cursor: default;
+}

@@ -1,0 +1,25 @@
+.alert {
+    display: flex;
+    color:#856404;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.65rem 1.25rem;
+    margin-bottom: 15px;
+}
+
+.warning {
+    background-color: #fff3cd;
+}
+
+.success {
+    background-color: #91f8a8;
+}
+
+.close {
+    font-size: 1.5rem;
+    padding: 0px;
+    margin: 0px;
+    background-color: inherit;
+    border: 0px;
+    color:#856404;
+}

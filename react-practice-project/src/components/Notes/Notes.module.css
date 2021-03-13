@@ -1,0 +1,41 @@
+li.note {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(216, 212, 212);
+    border-radius: 5px;
+    height: 6vh;
+    padding: 0px 10px;
+    
+}
+
+li.note:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+li.note strong {
+    margin-right: 10px;
+}
+
+button.del {
+    width: 4%;
+    height: 85%;
+    padding: 0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: honeydew;
+    background-color: #dc3545;
+    font-size: 1.3rem;
+
+}
+
+button.del:hover {
+    background-color: #a10b1a;
+}
+
+button.del:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(252, 117, 117, 0.486);
+}

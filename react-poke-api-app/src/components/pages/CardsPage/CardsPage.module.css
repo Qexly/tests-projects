@@ -1,0 +1,50 @@
+button {
+    width: 30px;
+    border: none;
+    background: transparent; 
+    color: rgb(66, 63, 63);
+    font-size: 60px;
+    opacity: 0.5;
+    transition: opacity 300ms ease-out; 
+    margin: 0;
+    padding: 0;
+}
+
+button:hover{
+    opacity: 1;
+}
+
+button:focus {
+    outline: none;
+}
+
+.cardsPage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+    button {
+        position: fixed;
+        top: 50vh;   
+    }
+
+    button.left {
+        left: 0px;
+    }
+
+    button.right {
+        right: 0px;
+    }
+
+    .cardsPage {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

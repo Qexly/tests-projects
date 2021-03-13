@@ -1,0 +1,13 @@
+input.note {
+    width: 100%;
+    border: 1px solid rgb(216, 212, 212);
+    height: 4vh;
+    border-radius: 5px;
+}
+
+input.note:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px lightskyblue;
+    border: 0px solid rgb(216, 212, 212);
+  }
+

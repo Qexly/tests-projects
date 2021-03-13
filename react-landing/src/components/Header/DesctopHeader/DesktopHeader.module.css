@@ -1,0 +1,50 @@
+@font-face {
+	font-family: 'NextaLight'; 
+	src: url(./../fonts/nexa-light.otf); 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+.header_wrap {
+    width: 100%;
+}
+
+header {
+    margin: auto;
+    font-size: 24px;
+    color: #f1f1f1;
+    max-width: 600px;
+    margin-top: 40px;
+}
+
+header ul {
+    padding-inline-start: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+header li {
+    display: block;
+    font-size: 24px;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    width: 95%;
+}
+
+@media screen and (max-width: 770px) {
+    hr {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header li {
+        font-size: 18px;
+    }
+}

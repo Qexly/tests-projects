@@ -1,0 +1,51 @@
+header.desktop {
+    background-color: rgb(247, 129, 129);
+    height: 60px;
+    color: white;
+}
+
+.header_container {
+    max-width: 1080px;
+    width: 100%;
+    min-width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+header.desktop ul {
+    padding: 0;
+    display: flex;
+    
+}
+
+header.desktop ul li {
+    display: block;
+    font-weight: 600;
+}
+
+header.desktop ul li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.logo {
+    height: 60px;
+}
+
+.logo img {
+    width: auto;
+    height: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media screen and (max-width: 700px) {
+    .header_container {
+        min-width: 375px;
+    }
+}
